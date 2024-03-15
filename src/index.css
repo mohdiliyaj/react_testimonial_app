@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Card CSS code */
+.testimonial {
+  text-align: center;
+  padding: 85px 50px 25px 70px;
+  margin: 70px 15px 35px;
+  background: #f9f9f9;
+  box-shadow: 8px 4px 0 0 #0dcaf0 ;
+  position: relative;
+}
+
+.testimonial .pic {
+  width: 120px;
+  height: 120px;
+  border: 5px solid #0dcaf0;
+  margin: 0 auto;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  right: 0;
+  border-radius: 100px;
+}
+
+.testimonial .pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  margin-bottom: 2px;
+}
+
+.testimonial .description {
+  font-size: 15px;
+  color: #757575;
+  line-height: 27px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* .testimonial .description:before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: #77a9dd;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+} */
+
+.testimonial .testimonial-profile {
+  position: relative;
+  margin: 20px 0 10px 0;
+}
+
+.testimonial .testimonial-profile:after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: #0dcaf0;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+
+.testimonial .title {
+  display: inline-block;
+  font-size: 18px;
+  color: #4a5184;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.testimonial .post {
+  display: inline-block;
+  font-size: 15px;
+  color: #757575;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: #5e5f5f;
+  opacity: 1;
+  transition: all 0.4s ease 0s;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #77a9dd;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  width: 22px;
+  height: 12px;
+}
